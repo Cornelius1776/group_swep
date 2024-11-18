@@ -68,7 +68,7 @@ def check_balance(account_number):
         print(f"Your Current Balance is: ₦{balance:.2f}")
 
 # Using the program
-def open():
+def open_program():
     # program loop.
     while True:
         print("\n--- Welcome To Group Five Banking System ---")
@@ -100,4 +100,4 @@ def open():
             print("Invalid choice. Please select a valid option (1-5).")
 
 
-open()
+open_program()
